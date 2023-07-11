@@ -153,11 +153,77 @@
     color: #FFFFFF;
     padding: 20px 40px 20px 40px;
     position: absolute;
-    left: 50%;
+    right: 44%;
     margin-top: 50px;
 }
 .blog-section{
     font-family: 'Lato', sans-serif;
     margin-top: 100px;
     margin-bottom: 50px;
+}
+/* About us section styles  */
+.about-us-section{
+    background-color: #2727270D;
+    width: 80%;
+    height: 25vh;
+    color: #272727CC;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600px;
+    margin-top: 150px;
+    margin-left: 130px;
+}
+.delivery-image, .fresh-flower-image, .support-image{
+    margin-left: 70px;
+}
+.support-text{
+    margin-left: 50px;
+}
+.about-us{
+    display: flex;
+    gap: 100px;
+    padding: 20px 50px 30px 80px;
+}
+/* Hot deal section styles  */
+.hot-deal-section{
+    background-color: #E554730D;
+    margin-top: 50px;
+    height: 65vh;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+}
+.hot-deal{
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding: 40px 100px 50px 200px;
+}
+.hot-deal-image{
+    width: 200px;
+    height: 300px;
+}
+.hot-deal-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 10px;
+}
+.red-1{
+    color: #E55473;
+}
+.hot-deal-text{
+    color: #27272799;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+}
+.btn-fourth{
+    background-color: #E55473;
+    border: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 20px 40px 20px 40px;
+    margin-top: 20px;
+    position: absolute;
+    left: 30%;
 }
